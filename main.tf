@@ -8,7 +8,7 @@ resource "aws_s3_bucket" "example_bucket" {
 
   tags = {
     Environment = var.environment
-    ManagedBy   = "Terraform"
+    ManagedBy   = "Terra form"
   }
 }
 
